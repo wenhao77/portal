@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<style>
+body {
+  font-family: "Lato", sans-serif;
+  background-image: url(https://images5.alphacoders.com/770/770814.png);
+  background-size:cover;
+  margin: 0;
+}
+
+
+</style>
+<body>
+
+<ul>
+  <span><a style="font-size:30px;cursor:pointer;float:left;color:red" onclick="openNav()">&#9776; open</a></span>
+  <li><a class="active" href="http://wenhaoportal.hopto.org/home.html">home</a></li>
+  <li><a href="http://wenhaoportal.hopto.org/video.html">video</a></li>
+  <li style="float:right"><a href="https://outlook.live.com/owa/">hotmail</a></li>
+  <li style="float:right"><a href="https://outlook.office.com/owa/">office 365</a></li>
+</ul>
+
+<div id="mySidenav" class="sidenav">
+  <span><a style="font-size:30px;cursor:pointer;" href="javascript:void(0)" class="closebtn" onclick="closeNav()">&#9776; close</a></span>
+  <a href="#">HELLO!!!</a>
+</div>
+
+<div id="main">
+  <h2>HHHHHHHEEEEEEEERRRRRRRUUUUU YEEAAAAAAAHHHH</h2>
+</div>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+</body>
+</html>
